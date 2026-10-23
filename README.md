@@ -19,6 +19,10 @@
 
 ## 👥 Project Team & Academic Credentials
 
+<p align="center">
+  <img src="docs/group_photo.jpg" alt="Project Team" width="720" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" />
+</p>
+
 **Department of Computer Science and Engineering (Data Science)**  
 **St. John College of Engineering and Management (Autonomous), University of Mumbai**
 
@@ -114,6 +118,7 @@ This project delivers a **dual-hazard edge safety controller** that combines:
 ├── demo/
 │   └── Gas Leakage and Fire Detection System live demo.mp4  # Working prototype demonstration video
 ├── docs/
+│   ├── group_photo.jpg                                     # Project team photo
 │   ├── MPCA CAPSTONE HARDWARE REPORT.pdf                    # Full MPCA capstone hardware report (PDF)
 │   ├── MPCA CAPSTONE HARDWARE REPORT.docx                   # Report source document (DOCX)
 │   └── circuit_diagram.png                                 # Circuit schematic and connection diagram
