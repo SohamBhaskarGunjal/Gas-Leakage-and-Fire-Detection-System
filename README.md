@@ -5,14 +5,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Hardware-ESP32%20%7C%20NodeMCU-orange.svg)](#hardware-specifications)
 [![Framework](https://img.shields.io/badge/Framework-Arduino%20C%2B%2B-blue.svg)](#software-and-libraries)
-[![Documentation](https://img.shields.io/badge/Docs-Project%20Report-red.svg)](docs/Gas%20Leakage%20and%20Fire%20Detection%20System%20Report.pdf)
+[![Documentation](https://img.shields.io/badge/Docs-MPCA%20Capstone%20Report-red.svg)](docs/MPCA%20CAPSTONE%20HARDWARE%20REPORT.pdf)
 [![Live Demo](https://img.shields.io/badge/Demo-Watch%20Video-green.svg)](demo/Gas%20Leakage%20and%20Fire%20Detection%20System%20live%20demo.mp4)
 
 ---
 
 ## 📑 Quick Links
 - 📹 **[Watch Live Demo Video](demo/Gas%20Leakage%20and%20Fire%20Detection%20System%20live%20demo.mp4)**
-- 📄 **[Read Full Project Report (PDF)](docs/Gas%20Leakage%20and%20Fire%20Detection%20System%20Report.pdf)**
+- 📄 **[Read MPCA Capstone Hardware Report (PDF)](docs/MPCA%20CAPSTONE%20HARDWARE%20REPORT.pdf)** | **[Download DOCX](docs/MPCA%20CAPSTONE%20HARDWARE%20REPORT.docx)**
 - 💻 **[View Main Arduino Firmware](ESP32_Gas_Fire_System/ESP32_Gas_Fire_System.ino)**
 
 ---
@@ -114,13 +114,15 @@ This project delivers a **dual-hazard edge safety controller** that combines:
 ├── demo/
 │   └── Gas Leakage and Fire Detection System live demo.mp4  # Working prototype demonstration video
 ├── docs/
-│   ├── Gas Leakage and Fire Detection System Report.pdf     # Full academic project report & synopsis
+│   ├── MPCA CAPSTONE HARDWARE REPORT.pdf                    # Full MPCA capstone hardware report (PDF)
+│   ├── MPCA CAPSTONE HARDWARE REPORT.docx                   # Report source document (DOCX)
 │   └── circuit_diagram.png                                 # Circuit schematic and connection diagram
 ├── ESP32_Gas_Fire_System/
 │   └── ESP32_Gas_Fire_System.ino                           # Complete ESP32 production firmware
 ├── sketch_sep28a/
 │   └── sketch_sep28a.ino                                   # Arduino IDE project sketch
-├── Gas Leakage and Fire Detection System Report.pdf         # Direct repository report link
+├── MPCA CAPSTONE HARDWARE REPORT.pdf                        # Direct repository report link (PDF)
+├── MPCA CAPSTONE HARDWARE REPORT.docx                       # Direct repository report link (DOCX)
 ├── LICENSE                                                 # MIT License
 └── README.md                                               # Comprehensive project documentation
 ```
