@@ -68,6 +68,10 @@ This project delivers a **dual-hazard edge safety controller** that combines:
 
 ## 🛠️ Hardware Pinout & Wiring Specification
 
+<p align="center">
+  <img src="docs/ESP32%20IoT%20Gas%20and%20Fire%20Detection%20Schematic.png" alt="ESP32 IoT Gas and Fire Detection Schematic" width="850" style="border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);" />
+</p>
+
 | Component / Subsystem | Module Pin | ESP32 GPIO Pin | Function / Logic Description |
 | :--- | :--- | :--- | :--- |
 | **MQ Gas Sensor Module** | Digital Out (`DO`) | `GPIO 27` | Active `LOW` on gas detection; 4-sample confirmation |
@@ -126,21 +130,22 @@ This project delivers a **dual-hazard edge safety controller** that combines:
 
 ```
 ├── demo/
-│   └── Gas Leakage and Fire Detection System live demo.mp4  # Working prototype demonstration video
+│   └── Gas Leakage and Fire Detection System live demo.mp4     # Working prototype demonstration video
 ├── docs/
-│   ├── hardware_prototype.jpg                              # Physical hardware prototype photo
-│   ├── group_photo.jpg                                     # Project team photo
-│   ├── MPCA CAPSTONE HARDWARE REPORT.pdf                    # Full MPCA capstone hardware report (PDF)
-│   ├── MPCA CAPSTONE HARDWARE REPORT.docx                   # Report source document (DOCX)
-│   └── circuit_diagram.png                                 # Circuit schematic and connection diagram
+│   ├── ESP32 IoT Gas and Fire Detection Schematic.png         # Full circuit schematic diagram (New Setup)
+│   ├── circuit_diagram.png                                    # Circuit diagram schematic
+│   ├── hardware_prototype.jpg                                 # Physical hardware prototype photo
+│   ├── group_photo.jpg                                        # Project team photo
+│   ├── MPCA CAPSTONE HARDWARE REPORT.pdf                       # Full MPCA capstone hardware report (PDF)
+│   └── MPCA CAPSTONE HARDWARE REPORT.docx                      # Report source document (DOCX)
 ├── ESP32_Gas_Fire_System/
-│   └── ESP32_Gas_Fire_System.ino                           # Complete ESP32 production firmware
+│   └── ESP32_Gas_Fire_System.ino                              # Complete ESP32 production firmware
 ├── sketch_sep28a/
-│   └── sketch_sep28a.ino                                   # Arduino IDE project sketch
-├── MPCA CAPSTONE HARDWARE REPORT.pdf                        # Direct repository report link (PDF)
-├── MPCA CAPSTONE HARDWARE REPORT.docx                       # Direct repository report link (DOCX)
-├── LICENSE                                                 # MIT License
-└── README.md                                               # Comprehensive project documentation
+│   └── sketch_sep28a.ino                                      # Arduino IDE project sketch
+├── MPCA CAPSTONE HARDWARE REPORT.pdf                           # Direct repository report link (PDF)
+├── MPCA CAPSTONE HARDWARE REPORT.docx                          # Direct repository report link (DOCX)
+├── LICENSE                                                    # MIT License
+└── README.md                                                  # Comprehensive project documentation
 ```
 
 ---
