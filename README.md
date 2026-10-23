@@ -17,6 +17,16 @@
 
 ---
 
+## 📸 Hardware Prototype
+
+<p align="center">
+  <img src="docs/hardware_prototype.jpg" alt="ESP32 Gas and Fire Detection System Prototype" width="520" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);" />
+  <br>
+  <em>Physical hardware prototype featuring the ESP32 edge controller, MQ-2 gas sensor, IR optical flame detector, ISD1820 voice module with speaker, tri-color status LEDs, and SG90 automated servo cutoff valve in an acrylic safety enclosure.</em>
+</p>
+
+---
+
 ## 👥 Project Team & Academic Credentials
 
 <p align="center">
@@ -118,6 +128,7 @@ This project delivers a **dual-hazard edge safety controller** that combines:
 ├── demo/
 │   └── Gas Leakage and Fire Detection System live demo.mp4  # Working prototype demonstration video
 ├── docs/
+│   ├── hardware_prototype.jpg                              # Physical hardware prototype photo
 │   ├── group_photo.jpg                                     # Project team photo
 │   ├── MPCA CAPSTONE HARDWARE REPORT.pdf                    # Full MPCA capstone hardware report (PDF)
 │   ├── MPCA CAPSTONE HARDWARE REPORT.docx                   # Report source document (DOCX)
