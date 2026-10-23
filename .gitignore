@@ -1,0 +1,10 @@
+# Arduino build output
+*.hex
+*.bin
+*.elf
+build/
+.theia/
+.vscode/
+*.tmp
+.DS_Store
+Thumbs.db
